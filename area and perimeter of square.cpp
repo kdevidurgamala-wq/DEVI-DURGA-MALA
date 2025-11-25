@@ -5,7 +5,8 @@ int main()
 	printf("enter a value:");
 	scanf("%d",&a);
 	area=a*a;
-	perimeter=4a;
+	perimeter=4*a;
 	printf("%d %d",area,perimeter);
 	return 0;
 }
+
